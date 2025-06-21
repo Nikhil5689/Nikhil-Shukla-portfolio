@@ -9,37 +9,23 @@ import RightSvg from "../../assets/svg/right-pattern.svg";
 export const projectsData = [
   {
     id: 1,
-    thumbnail: "https://i.imgur.com/UEqATGm.jpeg",
-    title: "E-Paper Amar Ujala ",
-    description: "Amar Ujala Hindi E-Newspaper with all available cities.",
-    live: "https://epaper-amar-ujala-hindi.netlify.app/",
-    code: "https://github.com/himanshuchandola/Amar-Ujala-E-Paper",
-    tech: ["React.js"],
+    thumbnail: "assets/svg/ultraceuticshome.png",
+    title: "ULTRACEUTICS INDIA PVT. LTD.  ",
+    description: "Built a clean, fast, and SEO-optimized site for ULTRACEUTICS INDIA PVT. LTD..",
+    live: "https://ultraceuticsindia.com/",
+    tech: ["React.js", "Tailwind CSS"],
     featured: false,
   },
   {
     id: 2,
     thumbnail: "https://i.imgur.com/GzAhqVA.png",
-    title: "Track My Expenses ",
-    description:
-      "Track My Expenses is a web app that helps to manage your personal Expenses with beautiful utilities like charts and calculative paying of dues.",
-    live: "https://track-my-expenses-4th-sem-project-gehu.netlify.app/",
-    code: "https://github.com/himanshuchandola/Track-My-Expenses",
+    title: "Websolute - Agency Portfolio  ",
+    description:"Developed a responsive portfolio for Websolute, showcasing our web development expertise..",
+    live: "https://websolute.in/",
     tech: ["React.js"],
     featured: false,
   },
-  {
-    id: 3,
-    thumbnail:
-      "https://raw.githubusercontent.com/himanshuchandola/E-Voting-Web-System/main/readme%20images/image-007.jpg",
-    title: "Matdaan - E-Voting System ",
-    description:
-      "A Interactive Way To Solve Conventional Voting via E-Voting. ",
-    live: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    code: "https://github.com/himanshuchandola/E-Voting-Web-System",
-    tech: ["HTMl5, PHP, CSS3, Bootstrap, MySQL"],
-    featured: false,
-  },
+  
 ];
 
 const Projects = () => {
@@ -91,15 +77,7 @@ const Projects = () => {
             />
           ))}
       </div>
-      <span>
-        For More Projects and Other work visit my{" "}
-        <a
-          href="https://github.com/himanshuchandola?tab=repositories&q=&type=source&language=&sort="
-          style={{ fontWeight: "bold", color: "red" }}
-        >
-          GitHub
-        </a>
-      </span>
+      
     </Section>
   );
 };

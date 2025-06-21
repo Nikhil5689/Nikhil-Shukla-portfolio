@@ -54,10 +54,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="mailto:himanshuchandolaofficial@gmail.com"
+                    href="mailto:nikhilshukla@websolute.in"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800 flex items-center"
                   >
-                    himanshuchandolaofficial@gmail.com{" "}
+                    nikhilshukla@websolute.in{" "}
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -94,8 +94,8 @@ const ContactDetails = () => {
           transition={{ duration: 1 }}
           whileInView={{ opacity: 1, x: 0 }}
           viewport={{ once: true }}
-          className="font-extralight text-sm mb-5"
-        >
+          className="font-extralight text-sm mb-5" 
+        > 
           Leaving some important links to my Socials here, feel free to contact
           me on any of them.
         </motion.p>
@@ -129,10 +129,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://www.linkedin.com/in/himanshuchandola/"
+                    href="https://www.linkedin.com/in/nikhilshuklahere/"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    linkedin.com/in/himanshuchandola
+                    linkedin.com/in/nikhilshuklahere
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>
@@ -149,10 +149,10 @@ const ContactDetails = () => {
                 </th>
                 <td className="px-6 py-4">
                   <a
-                    href="https://github.com/himanshuchandola"
+                    href="https://github.com/Nikhil5689"
                     className="font-normal text-blue-700 dark:text-blue-400 dark:hover:text-blue-500 hover:text-blue-800  flex items-center"
                   >
-                    github.com/himanshuchandola
+                    github.com/Nikhil5689
                     <span className="ml-1">
                       <BiLinkExternal />
                     </span>

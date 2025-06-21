@@ -62,7 +62,7 @@ const Hero = () => {
       >
         <span className="text-slate-700 dark:text-slate-200">
           <TypeAnimation
-            sequence={["Welcome👋", 2000, "Himanshu Chandola"]}
+            sequence={["Welcome👋", 2000, "Nikhil Shukla"]}
             speed={30}
             wrapper="span"
             repeat={Infinity}

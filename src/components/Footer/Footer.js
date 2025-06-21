@@ -9,22 +9,18 @@ const socialLinks = [
   {
     id: 2,
     icon: <FiGithub />,
-    url: "https://www.github.com/himanshuchandola",
+    url: "https://github.com/Nikhil5689",
   },
   {
     id: 4,
     icon: <FiLinkedin />,
-    url: "https://www.linkedin.com/in/himanshuchandola/",
+    url: "https://www.linkedin.com/in/nikhilshuklahere/",
   },
-  {
-    id: 6,
-    icon: <PeerlistIcon style={{ width: "24px", height: "24px" }} />,
-    url: "https://peerlist.io/himanshuhere",
-  },
+
   {
     id: 5,
     icon: <MdEmail />,
-    url: "mailto:himanshuchandolaofficial@gmail.com",
+    url: "mailto:nikhilshukla9989@gmail.com",
   },
 ];
 
@@ -53,19 +49,7 @@ const AppFooter = () => {
           </ul>
         </div>
         {/* <VisitorCounter /> */}
-        <div className="font-general-regular flex justify-center items-center text-center">
-          <a
-            href="https://vercel.com/?utm_source=himanshuchandola&utm_campaign=oss"
-            target="_blank"
-            rel="noreferrer noopener"
-            aria-label="Powered by Vercel"
-          >
-            <img
-              src="https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg"
-              alt="Powered by Vercel"
-            />
-          </a>
-        </div>
+       
         <br />
         <AppFooterCopyright />
       </div>

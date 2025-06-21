@@ -44,7 +44,7 @@ const About = () => {
           </h4>
           <div className="bg-white dark:bg-[#101111] p-5 rounded-3xl shadow-lg shadow-gray-400/50 dark:shadow-black/30 ">
             <p className="text-base font-light">
-              Hi, I am <span className="font-semibold">Himanshu Chandola</span>{" "}
+              Hi, I am <span className="font-semibold">Nikhil Shukla</span>{" "}
               I am a{" "}
               <span className="font-semibold">Frontend Web Developer</span>. I
               am proficient in ReactJS. I am looking for new opportunities to
@@ -56,6 +56,28 @@ const About = () => {
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
             <Reveal width="100%">Work Experience</Reveal>
           </h4>
+<FeaturedCard
+  icon={
+    <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
+      <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
+    </div>
+  }
+  title="Jan 2025 - Current"
+  desc={
+    <>
+      Founder & Frontend Developer at{" "}
+      <a
+        href="https://websolute.in"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 underline hover:text-blue-800 transition duration-200"
+      >
+        Websolute
+      </a>
+      .
+    </>
+  }
+/>
 
           <FeaturedCard
             icon={
@@ -63,20 +85,19 @@ const About = () => {
                 <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
               </div>
             }
-            title="Feb 2024 - Current"
-            desc="Frontend Developer at Exiliensoft Consulting Services."
+            title="Sep 2024 - Current "
+            desc="Digital Marketer  Freelancing."
           />
-
-          <FeaturedCard
+         <FeaturedCard
             icon={
               <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
                 <HiOutlineBuildingOffice className="h-5 w-5 text-white" />
               </div>
             }
-            title="June 2022 - Jan 2024"
-            desc="Software Developer at Source Soft Solutions Pvt. Ltd."
+            title="June 2023 - April 2024 "
+            desc="Event Manager at Arjun Catering."
           />
-
+      
           <h4 className="text-2xl font-medium text-amber-600 dark:text-amber-300">
             <Reveal width="100%">Education</Reveal>
           </h4>
@@ -87,8 +108,18 @@ const About = () => {
                 <FaGraduationCap className="h-5 w-5 text-white" />
               </div>
             }
-            title="August 2020 - June 2022"
-            desc="MCA ( Master of Computer Applications ) from Graphic Era Hill University."
+            title="August 2024 - Current"
+            desc="MCA ( Master of Computer Applications ) from D.Y Patil University, Pune ."
+          />
+
+          <FeaturedCard
+            icon={
+              <div className="rounded-xl bg-amber-400 p-3.5 dark:bg-amber-400">
+                <FaGraduationCap className="h-5 w-5 text-white" />
+              </div>
+            }
+            title="June 2021 - May 2024"
+            desc="BCA ( Bachelors of Computer Applications ) from Tilak Maharashtra Vidyapeeth University, Pune ."
           />
         </motion.div>
       </motion.div>

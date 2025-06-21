@@ -1,7 +1,7 @@
 import "./SkillsMarquee.css";
 import react from "../../assets/yellow/reacty.png";
 import javascript from "../../assets/yellow/javascripty.png";
-import nextjs from "../../assets/yellow/nexty.png";
+import Tailwind from "../../assets/yellow/tailwind.css.png";
 import redux from "../../assets/yellow/reduxy.png";
 import css3 from "../../assets/yellow/css3y.png";
 
@@ -24,10 +24,11 @@ const skillsData = [
     title: "React-Redux",
   },
   {
-    id: 4,
-    image: nextjs,
-    title: "Next.js",
+    id : 4,
+    image : Tailwind , 
+    title : "Tailwind-CSS",
   },
+  
 
   {
     id: 5,
@@ -54,7 +55,7 @@ function SkillsMarquee() {
             <img
               src={image}
               alt={title}
-              className="w-36 h-36 md:h-44 md:w-44 object-contain group-hover:grayscale"
+              className="w-36 h-36 md:h-44 md:w-44 object-contain group-hover:grayscale"  
             />
           </div>
         ))}

@@ -17,7 +17,7 @@ function HeaderTechStack() {
         className="mb-2.5 text-sm md:text-xl font-semibold text-[#7000ff] dark:text-[#7000ff]"
         initial={animation.hide}
         animate={animation.show}
-        transition={{ delay: 0.6 }}
+        transition={{ delay: 0.6 }} //
       >
         Current favorite tech stack/tools:
       </motion.p>
@@ -33,11 +33,6 @@ function HeaderTechStack() {
           </div>
         </motion.li>
 
-        <motion.li variants={animation}>
-          <div className="transition duration-200 hover:text-[#000000] dark:hover:text-[#FFFFFF]">
-            <NextJsIcon className="h-6 w-6 md:h-8 md:w-8" />
-          </div>
-        </motion.li>
         <motion.li variants={animation}>
           <div className="h-3 md:h-5 w-[1px] bg-slate-400 dark:bg-neutral-700" />
         </motion.li>

@@ -14,12 +14,12 @@ const ContactForm = () => {
     >
       <div className="leading-loose">
         <form
-          action="https://getform.io/f/0a1c23a4-8e39-462b-9296-a3f7d0300731"
+          action="https://getform.io/f/adrgxqea"
           method="POST"
           className="max-w-xl m-4 p-6 sm:p-10 bg-secondary-light dark:bg-secondary-dark rounded-xl text-left"
         >
           <h4 className="font-medium text-neutral-600 dark:text-neutral-200 text-2xl mb-8">
-            <Reveal width="100%">Leave a Message</Reveal>
+            <Reveal width="100%">Lets Connect</Reveal>
           </h4>
           <FormInput
             inputLabel="Full Name"
@@ -39,15 +39,26 @@ const ContactForm = () => {
             placeholderText="Your email"
             ariaLabelName="Email"
           />
-          <FormInput
-            inputLabel="Subject"
-            labelFor="subject"
-            inputType="text"
-            inputId="subject"
-            inputName="subject"
-            placeholderText="Subject"
-            ariaLabelName="Subject"
-          />
+            <div className="mb-4">
+            <label
+              htmlFor="reason"
+              className="block text-lg text-primary-dark dark:text-primary-light mb-2"
+            >
+              Why you want to connect?
+            </label>
+            <select
+              id="reason"
+              name="reason"
+              required
+              className="w-full px-5 py-2 bg-white dark:bg-[#0a0a0a] dark:text-white border border-black/10 dark:border-white/10 rounded-md shadow-sm text-md"
+              aria-label="Reason"
+            >
+              <option value="">Select a reason</option>
+              <option value="job">Job opportunity</option>
+              <option value="project">Project Development</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
 
           <div className="mt-6">
             <label

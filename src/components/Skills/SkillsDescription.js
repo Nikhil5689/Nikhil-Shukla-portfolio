@@ -70,26 +70,7 @@ const SkillsDescription = () => {
             I really enjoy building web applications and React is my go-to
             library.
           </motion.p>
-          <motion.h3
-            initial={{ x: 50, opacity: 0 }}
-            transition={{ duration: 1 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="font-medium text-lg text-neutral-600 dark:text-neutral-200 mt-5"
-          >
-            Next.js
-          </motion.h3>
-          <motion.p
-            initial={{ x: 50, opacity: 0 }}
-            transition={{ duration: 1 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            viewport={{ once: true }}
-            className="text-sm font-light"
-          >
-            Although I'm still relatively new to Next.js, I find it to be a
-            highly valuable tool with impressive capabilities. Its quality is
-            truly commendable.
-          </motion.p>
+       
         </div>
       </div>
     </div>
