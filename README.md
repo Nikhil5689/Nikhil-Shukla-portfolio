@@ -1,7 +1,7 @@
 # Personal Portfolio Website
 ## Live
-[https://himanshuchandola-portfolio.vercel.app](https://himanshuchandola-portfolio.vercel.app/)
 
+https://nikhil-shukla-portfolio.vercel.app/
 ## Tech Stack
 1) React JS
 2) Tailwind CSS
