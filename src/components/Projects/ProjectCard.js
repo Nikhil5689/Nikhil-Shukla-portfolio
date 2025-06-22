@@ -36,7 +36,7 @@ const ProjectCard = ({ live, thumbnail, code, title, description, tech }) => {
     >
       <div>
         <a href={`${live}`}>
-          <div className="h-[200px] w-full relative rounded-xl overflow-hidden">
+          <div className="h-[350px] w-full relative rounded-xl overflow-hidden">
             <img
               src={thumbnail}
               className="w-full h-full object-cover transition-all duration-300 group-hover:scale-110 group-hover:rotate-3"

@@ -9,7 +9,7 @@ import RightSvg from "../../assets/svg/right-pattern.svg";
 export const projectsData = [
 	{
 		id: 1,
-		thumbnail: "assets/svg/ultraceuticshome.png",
+		thumbnail: "https://i.postimg.cc/ZqLD2vRp/ultraceuticshomepage.png",
 		title: "ULTRACEUTICS INDIA PVT. LTD.  ",
 		description: "Built a clean, fast, and SEO-optimized site for ULTRACEUTICS INDIA PVT. LTD..",
 		live: "https://ultraceuticsindia.com/",
@@ -18,7 +18,7 @@ export const projectsData = [
 	},
 	{
 		id: 2,
-		thumbnail: "src/assets/yellow/css3y.png", 
+		thumbnail: "https://i.postimg.cc/XqK8GTCF/Screenshot-2025-06-22-020027.png", 
 		title: "Websolute - Agency Portfolio  ",
 		description:"Developed a responsive portfolio for Websolute, showcasing our web development expertise..",
 		live: "https://websolute.in/",
@@ -44,7 +44,7 @@ const Projects = () => {
 					className="absolute hidden right-0 bottom-2/4 w-2/12 max-w-xs md:block"
 					loading="lazy"
 					height={700}
-					width={320}
+					width={400}
 				/>
 				{projectsData
 					.filter((e) => e.featured === true)
